@@ -5,7 +5,7 @@ body {
   background-color: #20202d;
   margin: 0;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -13,6 +13,17 @@ a {
 .conteiner {
   max-width: 945px;
   margin: auto;
+}
+.section {
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+.section-title {
+  margin: 0;
+  margin-bottom: 84px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
 }
 .hero {
   padding-top: 50px;
@@ -55,9 +66,9 @@ a {
   margin-bottom: 38px;
 }
 .button {
-  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
   border: none;
-  box-shadow: 0px 4px 0px #B68500;
+  box-shadow: 0px 4px 0px #b68500;
   border-radius: 5px 5px 10px 10px;
   padding: 24px 42px;
   font-size: 12px;
@@ -74,4 +85,34 @@ a {
   background-repeat: no-repeat;
   background-position: center top -40px;
   border: 13px solid #fff;
+}
+/* Styel features */
+.features {
+  background-color: #000;
+}
+.features-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.features-item {
+  flex-basis: 30%;
+  margin-bottom: 63px;
+}
+.features-img {
+  display: block;
+  margin-bottom: 22px;
+}
+.features-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.features-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
 }
