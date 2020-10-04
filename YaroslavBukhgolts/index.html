@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&subset=cyrillic;"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style/styles.css" />
   </head>
 
@@ -42,16 +46,36 @@
         <!-- /.hero-header-->
         <div class="hero-content">
           <div class="hero-text">
-            <span class="hero-subtitle">Веб-разработчик</span>
-            <h1 class="hero-title">Ярослав Бухгольц</h1>
-            <p class="hero-description">
+            <span
+              class="hero-subtitle wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.4s"
+              >Веб-разработчик</span
+            >
+            <h1
+              class="hero-title wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.6s"
+            >
+              Ярослав Бухгольц
+            </h1>
+            <p
+              class="hero-description wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.8s"
+            >
               Разрабатываю сайты для малого и среднего бизнеса. У меня можно
               заказать дизайн и верстку небольшого сайта или интернет-магазина
             </p>
-            <button class="button hero-button">Бесплатная консультация</button>
+            <button
+              class="button hero-button wow animate__animated animate__fadeInRight"
+              data-wow-delay="1s"
+            >
+              Бесплатная консультация
+            </button>
           </div>
           <!-- /.hero-text -->
-          <div class="hero-avatar"></div>
+          <div
+            class="hero-avatar wow animate__animated animate__fadeIn"
+            data-wow-delay="1.6s"
+          ></div>
           <!-- /.hero-avatar -->
         </div>
         <!-- /.hero-content -->
@@ -171,24 +195,50 @@
           <!-- /.contacts-form -->
           <div class="contacts-text">
             <div class="contacts-data">
-              <div class="conacts-phone">
-                <h4 class="concats-title">Телефон</h4>
-                <a href="tel:+79991234567">+7 999 123-45-67</a>
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="tel:+79991234567" class="contacts-link"
+                  >+7 999 123-45-67</a
+                >
               </div>
-              <!-- /.conacts-phone -->
-              <div class="concats-mail">
-                <h4 class="concats-title">Почта</h4>
-                <a href="mailto:mail@mail.ru">mail@mail.ru</a>
+              <!-- /.contacts-phone -->
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Почта</h4>
+                <a href="mailto:mail@mail.ru" class="contacts-link"
+                  >mail@mail.ru</a
+                >
               </div>
-              <!-- /.concats-mail -->
-              <div class="concats-social">
-                <h4 class="concats-title">Соцсети</h4>
+              <!-- /.contacts-mail -->
+              <div class="contacts-social">
+                <h4 class="contacts-title">Соцсети</h4>
                 <a href="#" class="contacts-link">Gitpage</a>
                 <a href="#" class="contacts-link">vk.com</a>
               </div>
-              <!-- /.concats-social -->
+              <!-- /.contacts-social -->
             </div>
-            <div class="social-links"></div>
+            <div class="social-links">
+              <a
+                href="https://github.com/YaroslavBukhgolts"
+                class="social-link"
+              >
+                <img
+                  src="image/social-icon/github.svg"
+                  alt="github"
+                  class="social-link-img"
+                />
+              </a>
+              <a
+                href="https://www.facebook.com/yaroslav.buhgolc"
+                class="social-link"
+              >
+                <img
+                  src="image/social-icon/facebook.svg"
+                  alt="facebook"
+                  class="social-link-img"
+                />
+              </a>
+            </div>
+            <a href="#" class="contacts-policy">Политика конфиденциальности</a>
           </div>
           <!-- /.contacts-text -->
         </div>
@@ -196,5 +246,7 @@
       </div>
     </footer>
     <!--FOOTER END-->
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
