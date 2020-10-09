@@ -7,10 +7,14 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
+img {
+  max-width: 100%;
+}
 a {
   text-decoration: none;
 }
 .conteiner {
+  width: 90%;
   max-width: 945px;
   margin: auto;
 }
@@ -275,4 +279,131 @@ a {
   line-height: 18px;
   text-decoration-line: underline;
   color: #a5a5a5;
+}
+
+/* ADAPTIVE STYLE START */
+@media (max-width: 1100px) {
+  .hero-avatar {
+    width: 300px;
+    height: 300px;
+    border-width: 10px;
+  }
+}
+@media (max-width: 836px) {
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-avatar {
+    margin-bottom: 17px;
+  }
+  .features-item {
+    flex-basis: 46%;
+  }
+  .projects-slide {
+    flex-direction: column;
+  }
+  .project-image {
+    margin-bottom: 46px;
+  }
+  .contacts-block {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .contacts-form {
+    margin-bottom: 58px;
+  }
+}
+@media (max-width: 564px) {
+  .hero {
+    padding-bottom: 75px;
+  }
+  .hero-header {
+    margin-bottom: 38px;
+  }
+  .hero-avatar {
+    width: 113px;
+    height: 113px;
+    border-width: 4px;
+    background-size: 100%;
+    background-position: center top;
+  }
+  .hero-subtitle {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 4px;
+  }
+  .hero-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .hero-description {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .section {
+    padding-top: 60px 0;
+  }
+  .section-title {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 60px;
+  }
+  .features-item {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .features-title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .features-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .project-title {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .project-time,
+  .project-cost,
+  .project-fedback {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .project-description-text {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .project-subtitle {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .contacts-form {
+    padding: 40px 19px;
+  }
+  .form-title {
+    font-size: 15px;
+    line-height: 140%;
+  }
+  .form-button {
+    font-size: 10px;
+  }
+  .contacts-phone,
+  .contacts-mail {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .contacts-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .contacts-link {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 13px;
+  }
 }
