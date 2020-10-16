@@ -88,10 +88,11 @@ a {
   height: 389px;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url();
+  background-image: url(../image/avatar.JPG);
   background-repeat: no-repeat;
   background-position: center top -40px;
   border: 13px solid #fff;
+  background-size: cover;
 }
 /* Styel features */
 .features {
@@ -328,7 +329,7 @@ a {
     height: 113px;
     border-width: 4px;
     background-size: 100%;
-    background-position: center top;
+    background-position: center top -12px;
   }
   .hero-subtitle {
     font-size: 16px;
