@@ -40,8 +40,13 @@ a {
   align-items: center;
   margin-bottom: 105px;
 }
+.social-links {
+  display: flex;
+  align-items: center;
+}
 .social-link {
   margin-left: 20px;
+  display: inline-flex;
 }
 .social-link:first-child {
   margin-left: 0;
@@ -82,6 +87,9 @@ a {
   font-weight: bold;
   line-height: 14px;
   text-transform: uppercase;
+}
+.hero-button {
+  color: #000;
 }
 .hero-avatar {
   width: 389px;
